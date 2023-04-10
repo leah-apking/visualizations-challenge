@@ -60,6 +60,41 @@ function init() {
                 d3.select("#sample-metadata").append("h5").text(`${key}: ${value}`);
         });
 
+        // Gauge
+            gaugeData = selectedInfo[0].wfreq;
+
+            let traceGauge = [{
+                domain: {x: [0,1], y: [0,1]},
+                value: gaugeData,
+                title:{
+                    text: `Weekly Washing Frequency of ${selectedID}`
+                },
+                type: "indicator",
+                mode: "gauge+number",
+                gauge: {
+                    axis: {range: [0,9]},
+                    bar: {color: "rgb(255,255,255)"},
+                    steps: [
+                        { range: [0, 1], color: "rgb(231, 0, 95)"},
+                        { range: [1, 2], color: "rgb(228, 0, 113)"},
+                        { range: [2, 3], color: "rgb(223, 0, 132)"},
+                        { range: [3, 4], color: "rgb(214, 0, 153)"},
+                        { range: [4, 5], color: "rgb(200, 0, 174)"},
+                        { range: [5, 6], color: "rgb(182, 0, 195)"},
+                        { range: [6, 7], color: "rgb(156, 0, 216)"},
+                        { range: [7, 8], color: "rgb(119, 0, 236)"},
+                        { range: [8, 9], color: "rgb(44, 29, 255)"}
+                    ]
+                }
+            }];
+
+            let gaugeLayout = {
+                width: 600,
+                height: 500,
+                margin: {t:0, b:0}
+            };
+            Plotly.newPlot("gauge", traceGauge, gaugeLayout);
+
         };
 
         // Bar Graph
@@ -87,7 +122,7 @@ function init() {
                 text: textBar.reverse(),
                 type: "bar",
                 marker: {
-                    color: `rgb(99,28,242)`},
+                    color: "rgb(119, 0, 236)"},
                 orientation: "h"
             };
             let barData = [traceBar];
