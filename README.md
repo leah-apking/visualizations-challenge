@@ -8,10 +8,15 @@ In this assignment, I build an interactive dashboard to explore the provided Bel
 
 The dataset included three separate sections: the ‘names’ section included a complete list of the identification numbers given to each individual, the ‘metadata’ section included demographic information for each participant, and the ‘samples’ section included the data collected on OTUs found. This data was then used to create a dashboard providing panel of demographic information, a bar graph showing the top 10 OTUs found in the individual, and a bubble chart displaying the quantity of each OTU in the individual. The dashboard also included a dropdown menu allowing users to select the ID for any individual in the dataset and the graphs would then update to show the information for the ID they selected.
 
+![image](https://user-images.githubusercontent.com/119013360/230991590-8dfde2ae-5ded-4e2b-891c-5a0ffb789903.png)
 
 ### Setup & Demographics
 
 I began this assignment by using the D3 library to fetch the JSON data from the provided URL and logging it to the console. Creating the dropdown menu required the ‘names’ section of the JSON, so retrieved that information and created a menu by appending each of the names in the dataset to a value in the menu and set the first name to a default starting point for the dashboard. For the demographics panel I set a function that pulled the metadata section of the JSON and filter for the data related to the selected ID. This information was appended in key value pairs to the demographics panel.
+
+### Plotly Gauge
+
+The guage only information from the dataset used in the guage is the "wfreq" value found in the metadata section. Since the demographics function already contained this information I simply pulled the value I needed from the already filtered data and added the guage to the function. To create the gauge, I reviewed the documentation on how to create a guage with Plotly in JavaScript and used the format provided to create the figure with Plotly.
 
 ![image](https://user-images.githubusercontent.com/119013360/230974841-10b0d7fa-896b-4a5b-a8b0-7d9b3cbfcd56.png)
 
