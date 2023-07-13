@@ -1,6 +1,9 @@
 # visualizations-challenge
 
-In this assignment, I build an interactive dashboard to explore the provided Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
+In this assignment, I built an interactive dashboard to explore the provided Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
+
+### View the Dashboard
+https://leah-apking.github.io/visualizations-challenge/
 
 ![Screen Shot 2023-04-10 at 3 08 10 PM](https://user-images.githubusercontent.com/119013360/230976879-9348a235-2a46-427c-8ce7-813d5a23e09c.png)
 
