@@ -23,7 +23,7 @@ I began this assignment by using the D3 library to fetch the JSON data from the 
 
 ### Plotly Gauge
 
-The guage only information from the dataset used in the guage is the "wfreq" value found in the metadata section. Since the demographics function already contained this information I simply pulled the value I needed from the already filtered data and added the guage to the function. To create the gauge, I reviewed the documentation on how to create a guage with Plotly in JavaScript and used the format provided to create the figure with Plotly.
+The gauge only information from the dataset used in the gauge is the "wfreq" value found in the metadata section. Since the demographics function already contained this information I simply pulled the value I needed from the already filtered data and added the gauge to the function. To create the gauge, I reviewed the documentation on how to create a gauge with Plotly in JavaScript and used the format provided to create the figure with Plotly.![image](https://github.com/leah-apking/visualizations-challenge/assets/119013360/d853e707-dfcc-41f4-9811-e182126cf2ea)
 
 ![image](https://user-images.githubusercontent.com/119013360/230974841-10b0d7fa-896b-4a5b-a8b0-7d9b3cbfcd56.png)
 
