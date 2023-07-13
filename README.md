@@ -1,6 +1,10 @@
 # visualizations-challenge
 
-In this assignment, I built an interactive dashboard to explore the provided Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
+*What do you think is in your belly button? In 2011, a team of scientists launched the Belly Button Biodiversity Project to find out. These scientists were from the biology department of North Carolina State University (NC State) and the Nature Research Center (NRC) at the North Carolina Museum of Natural Sciences. “We're interested in helping people understand and appreciate the microscopic species with which we share our daily lives,” says team member Dr. Holly Menninger, an entomologist and NC State’s director of public science. Usually when we think of body bacteria, she says, we think of the bad microbes that cause illness. But in reality, most of the organisms on our skin are our first line of protection from pathogens—organisms that can cause disease... For this project, people wiped cotton swabs in or on their belly buttons.*
+
+-- National Geographic's 'Belly Button Biodiversity' -- https://education.nationalgeographic.org/resource/belly-button-biodiversity/
+
+This interactive dashboard to explores the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
 ### View the Dashboard
 https://leah-apking.github.io/visualizations-challenge/
